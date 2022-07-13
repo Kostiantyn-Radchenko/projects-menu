@@ -1,0 +1,12 @@
+.container {
+  width: 1470px;
+
+  @include pushAuto;
+
+  padding-left: 15px;
+  padding-right: 15px;
+
+  overflow: hidden;
+
+  outline: 5px solid black;
+}
